@@ -16,7 +16,8 @@ function App() {
   const addFeedback = (newFeedback) => {
     newFeedback.id = uuidv4()
     setFeedback([newFeedback, ...feedback])
-    }
+  }
+
   return (
     <>
       <Header />
