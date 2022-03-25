@@ -11,6 +11,7 @@ const FeedbackList = ({ feedback, handleDelete }) => {
         <FeedbackItem
           key={item.id}
           item={item}
+          rating={item.rating}
           handleDelete={handleDelete}
         />
       ))}
